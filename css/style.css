@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow: hidden; */
+    font-family: roboto;
+    height: 100%;
+    margin: 0;
+    /* transition:background-color .2s ease-in-out; */
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.nav-menu{
+}
+
+.nav-left{
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    /* left: 10px; */
+}
+
+.nav-left img{
+    width: 260px;
+}
+
+.nav-right{
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    right: 0;
+   
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.content-container{
+    scroll-snap-align: center;
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* position: absolute; */
+    /* align-items: center; */
+    background-color: transparent;
+}
+
+#seven{
+    background-color: #ff608c;
+}
+
+#six{
+    /* background-color: red; */
+}
+#five{
+    
+    background-color: #00c1b5
+}
+#four{
+    background-color: #ff651a
+}
+#three{
+    background-color: #ffbe00
+}
+#two{
+    background-color: #1d3fbb
+}
+#one{
+    background-color: #e30512
+}
+
+.box{
+    height: 60%;
+    width: 30%;
+    margin: 0 auto;
+    /* top: -30px; */
+    position: relative;
+    /* position: absolute;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    /* border: 1px solid black; */
+    /* margin-bottom: -30px; */
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box img{
+    max-width: 100%; 
+    object-fit: cover;
+    height: 100%;
+}
+
+.issue{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.box-buy{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+}
+
+.box-desc{
+    font-weight: 700;
+}
+
+.box-buy a, .box-desc a{
+    color: white;
+}
+
+#six .box-buy a, #six .box-desc a{
+    color:  #ff608c;
+}
+
+.box-desc{
+    text-align: center;
+}
+
+footer{
+    
+
+}
+
+.footer-left{
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height:25px;
+}
+.foot-desc{
+    margin: 0;
+}
+.copyright{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.copyright a{
+    /* text-decoration: none; */
+    color: black;
+}
+
+.copyright a:hover{
+    text-decoration: none;
+}
+
+.privacy a{
+    color: black;
+}
+
+.privacy a:hover{
+    text-decoration: none;
+}
+
+/* .copyright a:hover{
+    color: #666
+} */
+
+.footer-right{
+    /* width: 20%; */
+    position: fixed;
+    bottom: 0;
+    right: 22px;
+}
+
+.footer-right li a{
+    text-decoration: none;
+    color: black;
+    line-height: 28.8px;
+    font-size: 18px;
+}
+
+.footer-right ul{
+    list-style: none;
+}
